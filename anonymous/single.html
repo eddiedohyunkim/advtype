@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		html,body{
+			font-family : "Times New Roman";
+
+		}
+		html, body{
+			height: 100vh;
+		}
+		body{
+			margin: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		span{
+			/* either vw or vh, whichever is smaller*/
+			font-size: 100vmin;
+		}
+	</style>
+	<title></title>
+</head>
+<body>
+
+<!-- <p>ȠɲпӅŋӆ∏</p>
+<p>ǫơθ¤σѺº</p>
+<p>ᵯϻЖѪ‴</p>
+<p>ЏЧҶЦˇ</p>
+<p>Ʋ˘υƱ</p>
+<p>§̰Ϩ∫</p> -->
+<script>
+// we didnt create the header from javascript, we have to somehow get the header
+
+var a = ["ª","Ѧ","Ƌ","Д","^","Ƞ","ɲ","п","Ӆ","ŋ","ӆ","∏","ǫ","ơ","θ","¤","σ","Ѻ","º","Џ","Ч","Ҷ","Ц","ˇ","ᵯ","ϻ","Ж","Ѫ","‴","Ʋ","˘","υ","Ʊ","Ϛ","§","̰","Ϩ","∫"];
+
+console.log(a);
+
+var randomA = document.createElement("span");
+document.body.appendChild(randomA);
+randomA.innerHTML = a[Math.floor(Math.random()* 38)];
+
+
+
+</script>
+
+</body>
+</html>
